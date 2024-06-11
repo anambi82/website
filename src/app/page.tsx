@@ -15,7 +15,7 @@ const Page = () => {
       <div className="flex justify-center items-center h-screen">
         <div className="bg-black-100 p-6 rounded-lg shadow-lg text-center">
           <h1 className="text-8xl font-bold mb-8">Aditya Nambi</h1>
-          <div className="text-4xl flex space-x-24 mb-5">
+          <div className="text-4xl flex flex-col md:flex-row md:space-x-24 mb-5">
             <Link href="#about-me" className="text-blue-500 hover:text-blue-200 hover:animate-pulse">About Me</Link>
             <Link href="#experience" className="text-blue-500 hover:text-blue-200 hover:animate-pulse">Experience</Link>
             <Link href="#contact" className="text-blue-500 hover:text-blue-200 hover:animate-pulse">Contact</Link>
@@ -47,41 +47,41 @@ const Page = () => {
 
 <div id='experience' className="flex flex-col items-center pt-20">
   <h1 className="text-3xl text-blue-500 font-bold mb-4">Experience</h1>
-  <div className="flex justify-around space-x-8 max-w-7xl mx-auto">
-    <div className="w-1/4  p-6 rounded-lg shadow-lg">
-      <p style={{ wordWrap: 'break-word', marginBottom: '1rem' }}>
-        <a href='https://devpost.com/software/bloomberg-indg-challenge' target='_blank' >
-      <Image src="/bloomberg.jpg" alt="Aditya Nambi" width={300} height={2000} className="rounded-3xl mb-4 transform transition-transform hover:scale-150" />
+  <div className="flex flex-col md:flex-row justify-around space-y-8 md:space-y-0 md:space-x-8 max-w-7xl mx-auto">
+  <div className="w-full md:w-1/4 p-6 rounded-lg shadow-lg">
+    <p style={{ wordWrap: 'break-word', marginBottom: '1rem' }}>
+      <a href='https://devpost.com/software/bloomberg-indg-challenge' target='_blank'>
+        <Image src="/bloomberg.jpg" alt="Aditya Nambi" width={300} height={2000} className="rounded-3xl mb-4 transform transition-transform hover:scale-150" />
         {`First Place Winners of the Bloomberg INDG Challenge at TAMUDatathon 2022! We had to reverse embeddings using k-means clustering to find the hidden articles.`}
-        </a>
-      </p>
-    </div>
-    <div className="w-1/4  p-6 rounded-lg shadow-lg">
-      <p style={{ wordWrap: 'break-word', marginBottom: '1rem' }}>
-      <a href='https://tacs.tamu.edu/' target='_blank' >
-      <Image src="/tacs_black.png" alt="Aditya Nambi" width={200} height={200} className="rounded-3xl mb-4 transform transition-transform hover:scale-150" />
-        {`Logistics Lead of Texas A&M Computing Society the offical ACM chapter at TAMU. We host workshops, hackathons, and socials for the CS community.`}
       </a>
-      </p>
-    </div>
-    <div className="w-1/4  p-6 rounded-lg shadow-lg">
-      <p style={{ wordWrap: 'break-word', marginBottom: '1rem' }}>
-      <a href='https://devpost.com/software/glaid' target='_blank' >
-      <Image src="/glaid.jpg" alt="Aditya Nambi" width={300} height={2000} className="rounded-3xl mb-4 transform transition-transform hover:scale-150" />
-        {`A powerful study tool that used OpenAI's GPT-3.5 aimed to help create study tools on the fly like quizzes and flash cards removing the tediousness that used to be associated with these tasks.`}
-        </a>
-      </p>
-    </div>
-    <div className="w-1/4  p-6 rounded-lg shadow-lg">
-      <p style={{ wordWrap: 'break-word', marginBottom: '1rem' }}>
-      <a href='https://devpost.com/software/aa-challenge' target='_blank' >
-      <Image src="/airbud.jpg" alt="Aditya Nambi" width={20000} height={20000} className="rounded-3xl mb-4 transform transition-transform hover:scale-150" />
-        {`Our attempt at making social interactions easier on the plane by creating an app that allows users to play games with other passengers on the same flight.`}
-        </a>
-
-      </p>
-    </div>
+    </p>
   </div>
+  <div className="w-full md:w-1/4 p-6 rounded-lg shadow-lg">
+    <p style={{ wordWrap: 'break-word', marginBottom: '1rem' }}>
+      <a href='https://tacs.tamu.edu/' target='_blank'>
+        <Image src="/tacs_black.png" alt="Aditya Nambi" width={200} height={200} className="rounded-3xl mb-4 transform transition-transform hover:scale-150" />
+        {`Logistics Lead of Texas A&M Computing Society the official ACM chapter at TAMU. We host workshops, hackathons, and socials for the CS community.`}
+      </a>
+    </p>
+  </div>
+  <div className="w-full md:w-1/4 p-6 rounded-lg shadow-lg">
+    <p style={{ wordWrap: 'break-word', marginBottom: '1rem' }}>
+      <a href='https://devpost.com/software/glaid' target='_blank'>
+        <Image src="/glaid.jpg" alt="Aditya Nambi" width={300} height={2000} className="rounded-3xl mb-4 transform transition-transform hover:scale-150" />
+        {`A powerful study tool that used OpenAI's GPT-3.5 aimed to help create study tools on the fly like quizzes and flash cards removing the tediousness that used to be associated with these tasks.`}
+      </a>
+    </p>
+  </div>
+  <div className="w-full md:w-1/4 p-6 rounded-lg shadow-lg">
+    <p style={{ wordWrap: 'break-word', marginBottom: '1rem' }}>
+      <a href='https://devpost.com/software/aa-challenge' target='_blank'>
+        <Image src="/airbud.jpg" alt="Aditya Nambi" width={20000} height={20000} className="rounded-3xl mb-4 transform transition-transform hover:scale-150" />
+        {`Our attempt at making social interactions easier on the plane by creating an app that allows users to play games with other passengers on the same flight.`}
+      </a>
+    </p>
+  </div>
+</div>
+
   <h1 className="text-3xl text-blue-500 font-bold mb-4 mt-16">Skills</h1>
   {/* <div className="flex flex-wrap justify-center items-center">
     <img height={100} width={100} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" />
