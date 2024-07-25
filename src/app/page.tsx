@@ -66,9 +66,9 @@ const Page = () => {
   </div>
   <div className="w-full md:w-1/4 p-6 rounded-lg shadow-lg">
     <p style={{ wordWrap: 'break-word', marginBottom: '1rem' }}>
-      <a href='https://devpost.com/software/glaid' target='_blank'>
-        <Image src="/glaid.jpg" alt="Aditya Nambi" width={300} height={2000} className="rounded-3xl mb-4 transform transition-transform hover:scale-150" />
-        {`A powerful study tool that used OpenAI's GPT-3.5 aimed to help create study tools on the fly like quizzes and flash cards removing the tediousness that used to be associated with these tasks.`}
+      <a href='https://github.com/anambi82/nbaproj' target='_blank'>
+        <Image src="/onestopshot.png" alt="Aditya Nambi" width={300} height={2000} className="rounded-3xl mb-4 transform transition-transform hover:scale-150" />
+        {`A helpful NBA stat tracking tool that provides users with stats and shot charts about their favorite players, and will make a prediciton on the next NBA champion.`}
       </a>
     </p>
   </div>
