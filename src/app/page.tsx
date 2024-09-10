@@ -30,7 +30,7 @@ const Page = () => {
   <div id='about-me' className="flex flex-col items-center">
   <h1 className="text-3xl text-blue-500 font-bold mb-4">About me</h1>
   <div className="flex flex-col items-center">
-    <Image src="/me.jpg" alt="Aditya Nambi" width={300} height={300} className="rounded-3xl mb-4" />
+    <Image src="/headshot.png" alt="Aditya Nambi" width={300} height={300} className="rounded-3xl mb-4" />
     <div className='p-6 rounded-lg shadow-lg text-center text-blue-200'>
       Aditya Nambi | Computer Science Honors @ Texas A&M
     </div>
