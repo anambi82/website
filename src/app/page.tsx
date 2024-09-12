@@ -36,7 +36,7 @@ const Page = () => {
     </div>
     <div className=' max-w-3xl border-2 border-blue-500 p-6 rounded-lg shadow-lg mb-20'>
       <p style={{ wordWrap: 'break-word', marginBottom: '1rem' }}>
-        {`Howdy! I'm Adi and I am currently a Junior Computer Science student at Texas A&M university. I enjoy working on projects that make day to day life easy for everyone. My main interests are in task automation and ML.`}
+        {`Howdy! I'm Adi and I am currently a Junior Computer Science student at Texas A&M university. I enjoy working on projects that make day to day life easy for everyone. My main interests are in task automation and Software Engineering.`}
       </p>
       <p style={{ wordWrap: 'break-word', marginBottom: '1rem' }}>
         {`In my free time, I enjoy trying new foods, playing sports, and cheering on my Patriots and Celtics. I'm always looking to meet new people so feel free to shoot me an email and we can chat!`}
