@@ -32,11 +32,11 @@ const Page = () => {
   <div className="flex flex-col items-center">
     <Image src="/headshot.png" alt="Aditya Nambi" width={300} height={300} className="rounded-3xl mb-4" />
     <div className='p-6 rounded-lg shadow-lg text-center text-blue-200'>
-      Aditya Nambi | Computer Science Honors @ Texas A&M
+      Aditya Nambi | Computer Science @ Texas A&M
     </div>
     <div className=' max-w-3xl border-2 border-blue-500 p-6 rounded-lg shadow-lg mb-20'>
       <p style={{ wordWrap: 'break-word', marginBottom: '1rem' }}>
-        {`Howdy! I'm Adi and I am currently a Junior Computer Science student at Texas A&M university. I enjoy working on projects that make day to day life easy for everyone. My main interests are in task automation and Software Engineering.`}
+        {`Howdy! I'm Adi and I am currently a Senior Computer Science student at Texas A&M university. I enjoy working on projects that make day to day life easy for everyone. My main interests are in task automation and Software Engineering.`}
       </p>
       <p style={{ wordWrap: 'break-word', marginBottom: '1rem' }}>
         {`In my free time, I enjoy trying new foods, playing sports, and cheering on my Patriots and Celtics. I'm always looking to meet new people so feel free to shoot me an email and we can chat!`}
@@ -60,7 +60,7 @@ const Page = () => {
     <p style={{ wordWrap: 'break-word', marginBottom: '1rem' }}>
       <a href='https://tacs.tamu.edu/' target='_blank'>
         <Image src="/tacs_black.png" alt="Aditya Nambi" width={200} height={200} className="rounded-3xl mb-4 transform transition-transform hover:scale-150" />
-        {`Logistics Lead of Texas A&M Computing Society the official ACM chapter at TAMU. We host workshops, hackathons, and socials for the CS community.`}
+        {`President of Texas A&M Computing Society the official ACM chapter at TAMU. We host workshops, hackathons, and socials for the CS community.`}
       </a>
     </p>
   </div>
@@ -74,9 +74,9 @@ const Page = () => {
   </div>
   <div className="w-full md:w-1/4 p-6 rounded-lg shadow-lg">
     <p style={{ wordWrap: 'break-word', marginBottom: '1rem' }}>
-      <a href='https://devpost.com/software/aa-challenge' target='_blank'>
-        <Image src="/airbud.jpg" alt="Aditya Nambi" width={20000} height={20000} className="rounded-3xl mb-4 transform transition-transform hover:scale-150" />
-        {`Our attempt at making social interactions easier on the plane by creating an app that allows users to play games with other passengers on the same flight.`}
+      <a href='https://www.linkedin.com/in/adityanambi/' target='_blank'>
+        <Image src="/jpmc.jpg" alt="Aditya Nambi" width={20000} height={20000} className="rounded-3xl mb-4 transform transition-transform hover:scale-150" />
+        {`Spent a summer as a software engineering intern at JP Morgan Chase working in the Asset Wealth Management divison. Worked primarly with Backend technologies such as Java, Spring Boot, and SQL.`}
       </a>
     </p>
   </div>
