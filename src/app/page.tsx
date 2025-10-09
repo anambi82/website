@@ -44,15 +44,62 @@ const Page = () => {
     </div>
   </div>
 </div>
+<div id='resume' className="flex flex-col items-center py-20">
+  <h1 className="text-3xl text-blue-500 font-bold mb-8">Resume</h1>
+  <div className="max-w-6xl mx-auto text-center">
+    <p className="text-xl mb-8 text-blue-200">
+      View my resume below or open it in a new tab for a better viewing experience.
+    </p>
+    
+    {/* Resume Viewer */}
+    <div className="bg-white rounded-lg shadow-2xl p-4 mb-8">
+      <iframe
+        src="/Nambi_Aditya.pdf"
+        width="100%"
+        height="800"
+        className="rounded border-2 border-gray-300"
+        title="Aditya Nambi Resume"
+      >
+        <p className="text-gray-600">
+          Your browser does not support PDFs. 
+          <a href="/Nambi_Aditya.pdf" className="text-blue-500 hover:underline">
+            Open the PDF in a new tab
+          </a>
+        </p>
+      </iframe>
+    </div>
+
+    {/* Open in New Tab Button */}
+    <div className="flex justify-center">
+      <a 
+        href="/Nambi_Aditya.pdf" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="inline-flex items-center px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white font-bold text-lg rounded-lg shadow-lg transition-all duration-300 hover:scale-105"
+      >
+        <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+        </svg>
+        Open in New Tab
+      </a>
+    </div>
+    
+    <div className="mt-4">
+      <p className="text-sm text-gray-400">
+        Last updated: September 2024
+      </p>
+    </div>
+  </div>
+</div>
 
 <div id='experience' className="flex flex-col items-center pt-20">
   <h1 className="text-3xl text-blue-500 font-bold mb-4">Experience</h1>
   <div className="flex flex-col md:flex-row justify-around space-y-8 md:space-y-0 md:space-x-8 max-w-7xl mx-auto">
   <div className="w-full md:w-1/4 p-6 rounded-lg shadow-lg">
     <p style={{ wordWrap: 'break-word', marginBottom: '1rem' }}>
-      <a href='https://devpost.com/software/bloomberg-indg-challenge' target='_blank'>
-        <Image src="/bloomberg.jpg" alt="Aditya Nambi" width={300} height={2000} className="rounded-3xl mb-4 transform transition-transform hover:scale-150" />
-        {`First Place Winners of the Bloomberg INDG Challenge at TAMUDatathon 2022! We had to reverse embeddings using k-means clustering to find the hidden articles.`}
+      <a href='https://www.breweryjourney.com/' target='_blank'>
+        <Image src="/brewjourney.png" alt="Aditya Nambi" width={300} height={2000} className="rounded-3xl mb-4 transform transition-transform hover:scale-150" />
+        {`Local brewery finder built with Google Maps API and OpenBrewDB API. Simple passion project that was made to find cool breweries around me and help friends decided on a fun adventure.`}
       </a>
     </p>
   </div>
