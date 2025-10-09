@@ -99,7 +99,7 @@ const Page = () => {
     <p style={{ wordWrap: 'break-word', marginBottom: '1rem' }}>
       <a href='https://www.breweryjourney.com/' target='_blank'>
         <Image src="/brewjourney.png" alt="Aditya Nambi" width={300} height={2000} className="rounded-3xl mb-4 transform transition-transform hover:scale-150" />
-        {`Local brewery finder built with Google Maps API and OpenBrewDB API. Simple passion project that was made to find cool breweries around me and help friends decided on a fun adventure.`}
+        {`Local brewery finder built with Google Maps API and OpenBrewDB API. Simple passion project that was made to find cool breweries around me and help friends decide on fun adventures.`}
       </a>
     </p>
   </div>
