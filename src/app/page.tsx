@@ -17,6 +17,7 @@ const Page = () => {
           <h1 className="text-8xl font-bold mb-8">Aditya Nambi</h1>
           <div className="text-4xl flex flex-col md:flex-row md:space-x-24 mb-5">
             <Link href="#about-me" className="text-blue-500 hover:text-blue-200 hover:animate-pulse">About Me</Link>
+            <Link href="#resume" className="text-blue-500 hover:text-blue-200 hover:animate-pulse">Resume</Link>
             <Link href="#experience" className="text-blue-500 hover:text-blue-200 hover:animate-pulse">Experience</Link>
             <Link href="#contact" className="text-blue-500 hover:text-blue-200 hover:animate-pulse">Contact</Link>
           </div>
@@ -46,15 +47,11 @@ const Page = () => {
 </div>
 <div id='resume' className="flex flex-col items-center py-20">
   <h1 className="text-3xl text-blue-500 font-bold mb-8">Resume</h1>
-  <div className="max-w-6xl mx-auto text-center">
-
-    
-    <div className="bg-white rounded-lg shadow-2xl p-4 mb-8">
+  <div className="w-full max-w-4xl mx-auto text-center px-4">
+    <div className="w-full h-[800px] bg-white rounded-lg shadow-2xl p-4 mb-8">
       <iframe
         src="/Nambi_Aditya.pdf"
-        width="100%"
-        height="800"
-        className="rounded border-2 border-gray-300"
+        className="w-full h-full rounded border-2 border-gray-300"
         title="Aditya Nambi Resume"
       >
         <p className="text-gray-600">
