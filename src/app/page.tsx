@@ -47,11 +47,8 @@ const Page = () => {
 <div id='resume' className="flex flex-col items-center py-20">
   <h1 className="text-3xl text-blue-500 font-bold mb-8">Resume</h1>
   <div className="max-w-6xl mx-auto text-center">
-    <p className="text-xl mb-8 text-blue-200">
-      View my resume below or open it in a new tab for a better viewing experience.
-    </p>
+
     
-    {/* Resume Viewer */}
     <div className="bg-white rounded-lg shadow-2xl p-4 mb-8">
       <iframe
         src="/Nambi_Aditya.pdf"
@@ -69,7 +66,6 @@ const Page = () => {
       </iframe>
     </div>
 
-    {/* Open in New Tab Button */}
     <div className="flex justify-center">
       <a 
         href="/Nambi_Aditya.pdf" 
