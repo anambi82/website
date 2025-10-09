@@ -86,7 +86,7 @@ const Page = () => {
     
     <div className="mt-4">
       <p className="text-sm text-gray-400">
-        Last updated: September 2024
+        Last updated: September 2025
       </p>
     </div>
   </div>
