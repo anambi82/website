@@ -50,7 +50,7 @@ const Page = () => {
   <div className="w-full max-w-4xl mx-auto text-center px-4">
     <div className="w-full h-[800px] bg-white rounded-lg shadow-2xl p-4 mb-8">
       <iframe
-        src="/Nambi_Aditya.pdf"
+        src="/Nambi_Aditya_no_addy.pdf"
         className="w-full h-full rounded border-2 border-gray-300"
         title="Aditya Nambi Resume"
       >
