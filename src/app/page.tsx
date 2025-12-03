@@ -56,7 +56,7 @@ const Page = () => {
       >
         <p className="text-gray-600">
           Your browser does not support PDFs. 
-          <a href="/Nambi_Aditya.pdf" className="text-blue-500 hover:underline">
+          <a href="/Nambi_Aditya_no_addy.pdf" className="text-blue-500 hover:underline">
             Open the PDF in a new tab
           </a>
         </p>
@@ -64,9 +64,9 @@ const Page = () => {
     </div>
 
     <div className="flex justify-center">
-      <a 
-        href="/Nambi_Aditya.pdf" 
-        target="_blank" 
+      <a
+        href="/Nambi_Aditya_no_addy.pdf"
+        target="_blank"
         rel="noopener noreferrer"
         className="inline-flex items-center px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white font-bold text-lg rounded-lg shadow-lg transition-all duration-300 hover:scale-105"
       >
